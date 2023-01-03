@@ -6,12 +6,18 @@
 </head>
 <body>
 
-	<form action="add" method="post">
-		<!-- 	<form action="add.jsp" method="post"> -->
+	<!-- 	<form action="add" method="post"> -->
+	<form action="calculate.jsp" method="post">
 		<br> Enter first number: <input type="text" name="num1" /> <br>
 		<br> Enter second number: <input type="text" name="num2" /> <br>
-		<br>
-		<button type="submit">Add</button>
+		<br> <label for="operation">Select Operation: </label> <select
+			id="operation" name="ops">
+			<option value="add">Add</option>
+			<option value="subtract">Subtract</option>
+			<option value="multiply">Multiply</option>
+			<option value="divide">Divide</option>
+		</select> <br>
+		<button type="submit">Submit</button>
 	</form>
 
 </body>

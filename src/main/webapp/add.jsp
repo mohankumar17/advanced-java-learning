@@ -28,6 +28,7 @@
 	int num2 = Integer.parseInt(request.getParameter("num2"));
 
 	sum = num1 + num2;
+
 	LocalDate date = LocalDate.now();
 	out.println("Date: " + date + " ");
 	%>
